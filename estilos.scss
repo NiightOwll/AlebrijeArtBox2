@@ -1,0 +1,86 @@
+// PARTE USIEL
+
+*{
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: cuatacho;
+    src: url(../fonts/Cuatacho.otf);
+}
+
+$gris: #F1F1F1;
+$blanco: white;
+$morado: #513973;
+$moradoletra: #4D3C72;
+$lila: #C2A1F1;
+
+body{
+    background-color: $blanco;
+    font-family: cuatacho;
+}
+
+a:link,a:hover{
+    text-decoration: none;
+}
+.responsive {
+    width: 100%;
+    height: auto;
+  }
+.outer-container{
+    background:#513973;
+    width:100%;
+
+}
+
+h1{
+    font-family: 'Bangers', cursive;
+    font-size: 50pt !important;
+}
+.marcomorado{
+    float: right;
+    border-radius: 1em;
+    border-color: $morado;
+    border-style: solid;
+    border-width: 7px;
+    font-family: 'Bangers', cursive;
+    color: $lila;
+    width: 11em;
+    padding: 1em;
+}
+
+.puntos{
+    color: $lila;
+}
+
+.boton{
+    background-color: $morado;
+    color: $blanco;
+    border-radius: 1em;
+    font-family: 'Bangers', cursive;
+    padding: 1em;
+    text-align: center;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.textomorado{
+    color:$moradoletra;
+}
+.cuadroblanco{
+    background-color: $blanco;
+    border-radius: 1em;
+    padding: 1em;
+}
+.escribir{
+    border-color: $lila;
+    border-radius: 1em;
+    border-style: solid;
+    border-width: 3px;
+    background-color: $blanco;
+    color: $lila;
+    margin: 0.5em;
+    padding: 0.2em;
+}

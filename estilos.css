@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: cuatacho;
+  src: url(../fonts/Cuatacho.otf);
+}
+body {
+  background-color: white;
+  font-family: cuatacho;
+}
+
+a:link, a:hover {
+  text-decoration: none;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+.outer-container {
+  background: #513973;
+  width: 100%;
+}
+
+h1 {
+  font-family: "Bangers", cursive;
+  font-size: 50pt !important;
+}
+
+.marcomorado {
+  float: right;
+  border-radius: 1em;
+  border-color: #513973;
+  border-style: solid;
+  border-width: 7px;
+  font-family: "Bangers", cursive;
+  color: #C2A1F1;
+  width: 11em;
+  padding: 1em;
+}
+
+.puntos {
+  color: #C2A1F1;
+}
+
+.boton {
+  background-color: #513973;
+  color: white;
+  border-radius: 1em;
+  font-family: "Bangers", cursive;
+  padding: 1em;
+  text-align: center;
+}
+
+.titulo {
+  text-align: center;
+}
+
+.textomorado {
+  color: #4D3C72;
+}
+
+.cuadroblanco {
+  background-color: white;
+  border-radius: 1em;
+  padding: 1em;
+}
+
+.escribir {
+  border-color: #C2A1F1;
+  border-radius: 1em;
+  border-style: solid;
+  border-width: 3px;
+  background-color: white;
+  color: #C2A1F1;
+  margin: 0.5em;
+  padding: 0.2em;
+}
